@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housing</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- FONT  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet" />
+    <!-- SWIPER FOR CAROUSEL  -->
+    <link rel="stylesheet" href="./css/swiper.min.css" />
+    <!-- POPUP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/magnific-popup.css" />
+    <link rel="stylesheet" href="./css/lsb.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h1>Hous<span>ing</span></h1>
+            </div>
+            <nav class="navBar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#agents">Agents</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" style="background-image: url('./img/b1.jpg');">
+                    <div class="carousel__text">
+                        <h2>Lorem ipsum dolor sit amet.</h2>
+                        <p>Lorem ipsum dolor .</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('./img/b2.jpg');">
+                    <div class="carousel__text">
+                        <h2>Lom ipsum dolor amet.</h2>
+                        <p>Lorem dolor .</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('./img/b3.jpg');">
+                    <img src="./img/b3.jpg" alt="" />
+                    <div class="carousel__text">
+                        <h2>Lorer sit amet.</h2>
+                        <p>Lorem ipsum dolor .</p>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url('./img/b4.jpg');">
+                    <div class="carousel__text">
+                        <h2>ipsum dolor sit amet.</h2>
+                        <p>Lorem .</p>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About</h2>
+        <div class="about__content1">
+            <div class="about__items">
+                <i class="fa fa-home"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel libero nihil natus amet quibusdam, nulla pariatur veritatis. Corporis, odio?
+                </p>
+            </div>
+            <div class="about__items">
+                <i class="fa fa-key"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel libero nihil natus amet quibusdam, nulla pariatur veritatis. Corporis, odio?
+                </p>
+            </div>
+            <div class="about__items">
+                <i class="fa fa-money-bill"></i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vel libero nihil natus amet quibusdam, nulla pariatur veritatis. Corporis, odio?
+                </p>
+            </div>
+        </div>
+        <div class="about__content2">
+            <h3>About us</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dicta consequatur fugit quia dolorem doloremque quibusdam, ad repellendus neque tempora, nesciunt accusantium quod voluptatem incidunt dolor consequuntur eveniet, ea aliquam?
+            </p>
+        </div>
+    </section>
+    <section class="stats">
+        <h2>Stats</h2>
+        <div class="stats__content">
+            <div class="stats__items">
+                <span class="counter">3500</span>
+                <p>clients</p>
+            </div>
+            <div class="stats__items">
+                <span class="counter">650</span>
+                <p>plans</p>
+            </div>
+            <div class="stats__items">
+                <span class="counter">1021</span>
+                <p>projects</p>
+            </div>
+            <div class="stats__items">
+                <span class="counter">1010</span>
+                <p>likes</p>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <div class="blog__content">
+            <div class="blog__items">
+                <img src="./img/g1.jpg" alt="" />
+                <div class="blog__text">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse?
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Read more..
+            </button>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header override-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                                        Housing
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                                </div>
+                                <div class="modal-body override-body">
+                                    <img src="./img/img2.jpg" alt="" />
+                                    <p>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+                                        eum fugiat quo voluptas nulla pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__items">
+                <img src="./img/g2.jpg" alt="" />
+                <div class="blog__text">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse?
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Read more..
+            </button>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header override-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                                        Housing
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                                </div>
+                                <div class="modal-body override-body">
+                                    <img src="./img/img2.jpg" alt="" />
+                                    <p>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+                                        eum fugiat quo voluptas nulla pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__items">
+                <img src="./img/g1.jpg" alt="" />
+                <div class="blog__text">
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse?
+                    </p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+              Read more..
+            </button>
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header override-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">
+                                        Housing
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                                </div>
+                                <div class="modal-body override-body">
+                                    <img src="./img/img2.jpg" alt="" />
+                                    <p>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+                                        eum fugiat quo voluptas nulla pariatur.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="getMore">
+        <div class="getMore__video">
+            <a class="test-popup-link" href="https://vimeo.com/106770833"><i class="fa fa-play-circle"></i
+        ></a>
+        </div>
+        <div class="getMore__text">
+            <h2>Get More..</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque quisquam provident aperiam dolores fugit delectus corporis, laudantium quia consequatur qui voluptatum ducimus cumque magni ipsam odio voluptate commodi quae porro!
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+          Read more..
+        </button>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header override-header">
+                            <h5 class="modal-title" id="exampleModalCenterTitle">
+                                Housing
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                        </div>
+                        <div class="modal-body override-body">
+                            <img src="./img/img2.jpg" alt="" />
+                            <p>
+                                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
+                                eum fugiat quo voluptas nulla pariatur.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio__content">
+            <a href="./img/img1.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                    <img src="./img/img1.jpg" alt="">
+
+                <div class="portfolio__overlay__wrap">
+                    <div class="portfolio__overlay">
+                        <h3>GALLERY</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="./img/img2.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                <img src="./img/img2.jpg" alt="">
+
+            <div class="portfolio__overlay__wrap">
+                <div class="portfolio__overlay">
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            </a>
+            <a href="./img/img3.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                <img src="./img/img3.jpg" alt="">
+
+            <div class="portfolio__overlay__wrap">
+                <div class="portfolio__overlay">
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            </a><a href="./img/img4.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                <img src="./img/img4.jpg" alt="">
+
+            <div class="portfolio__overlay__wrap">
+                <div class="portfolio__overlay">
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            </a><a href="./img/img5.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                <img src="./img/img5.jpg" alt="">
+
+            <div class="portfolio__overlay__wrap">
+                <div class="portfolio__overlay">
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            </a><a href="./img/img6.jpg" class="lsb-preview portfolio__items" data-lsb-group="header">
+                <img src="./img/img6.jpg" alt="">
+
+            <div class="portfolio__overlay__wrap">
+                <div class="portfolio__overlay">
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            </a>    
+    </section>
+    <section class="subscribe">
+        <div class="subscribe__content">
+            <h2>Subscribe</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore placeat id quidem soluta corporis minima amet deleniti reiciendis aspernatur.</p>
+            <form action="" class="subscribe__form">
+                <input type="email" name="" id="" placeholder="Email" required>
+                <button type="button">Click</button>
+            </form>
+        </div>
+    </section>
+    <section class="agents">
+        <h2>Our Agents</h2>
+        <div class="agents__content">
+            <div class="agents__items">
+                <img src="./img/t1.jpg" alt="">
+                <div class="agents__info">
+                    <h4>KAT WALLY</h4>
+                    <p>Lorem, ipsum.</p>
+                    <a href=""><i class="fab fa-facebook-f bgcolor-fb"></i></a>
+                    <a href=""><i class="fab fa-twitter bgcolor-twitter"></i></a>
+                    <a href=""><i class="fa fa-rss bgcolor-rss"></i></a>
+                </div>
+            </div>
+            <div class="agents__items">
+                <img src="./img/t2.jpg" alt="">
+                <div class="agents__info">
+                    <h4>JOHN MAX</h4>
+                    <p>Lorem, ipsum.</p>
+                    <a href=""><i class="fab fa-facebook-f bgcolor-fb"></i></a>
+                    <a href=""><i class="fab fa-twitter bgcolor-twitter"></i></a>
+                    <a href=""><i class="fa fa-rss bgcolor-rss"></i></a>
+                </div>
+            </div>
+            <div class="agents__items">
+                <img src="./img/t3.jpg" alt="">
+                <div class="agents__info">
+                    <h4>ROY KENT</h4>
+                    <p>Lorem, ipsum.</p>
+                    <a href=""><i class="fab fa-facebook-f bgcolor-fb"></i></a>
+                    <a href=""><i class="fab fa-twitter bgcolor-twitter"></i></a>
+                    <a href=""><i class="fa fa-rss bgcolor-rss"></i></a>
+                </div>
+            </div>
+            <div class="agents__items">
+                <img src="./img/t4.jpg" alt="">
+                <div class="agents__info">
+                    <h4>JOY IDSON</h4>
+                    <p>Lorem, ipsum.</p>
+                    <a href=""><i class="fab fa-facebook-f bgcolor-fb"></i></a>
+                    <a href=""><i class="fab fa-twitter bgcolor-twitter"></i></a>
+                    <a href=""><i class="fa fa-rss bgcolor-rss"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ggmap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62694.93338363023!2d106.71814493753654!3d10.854608470661812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d85e042bf04b%3A0xbb26baec1664394d!2zVGjhu6cgxJDhu6ljLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1585653995996!5m2!1svi!2s" width="100%" height="450" frameborder="0" style="border:0; padding: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form action="" class="contact__form">
+            <input type="text" name="" id="" placeholder="Name">
+            <input type="text" name="" id="" placeholder="Last Name">
+            <input type="email" name="" id="" placeholder="Email">
+            <input type="tel" name="" id="" placeholder="Phone">
+            <textarea name="" id="" cols="10" rows="5" placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>   
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__items footer__text">
+                <p>© 2020 Housing. All Rights Reserved | Design by <span>VoDucDuoc</span></p>
+            </div>
+            <div class="footer__items footer__social">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fa fa-rss"></i></a>
+                <a href=""><i class="fab fa-vk"></i></a>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="backToTop cd-top text-replace js-cd-top">
+        <img src="./img/arrowup.png" alt="">
+    </a>
+    <!-- SWIPER FOR CAROUSEL  -->
+    <script src="./js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            loop: true,
+            spaceBetween: 30,
+            speed: 1000,
+            effect: "fade",
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- COUNTUP -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script>
+        $(".counter").countUp({
+            time: 2000,
+            delay: 10
+        });
+    </script>
+    <!-- POPUP  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(".test-popup-link").magnificPopup({
+            type: "iframe",
+            iframe: {
+                markup: '<div class="mfp-iframe-scaler">' +
+                    '<div class="mfp-close"></div>' +
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                    "</div>",
+                patterns: {
+                    youtube: {
+                        index: "youtube.com/",
+
+                        id: "v=",
+                        src: "//www.youtube.com/embed/%id%?autoplay=1"
+                    },
+                    vimeo: {
+                        index: "vimeo.com/",
+                        id: "/",
+                        src: "//player.vimeo.com/video/%id%?autoplay=1"
+                    },
+                    gmaps: {
+                        index: "//maps.google.",
+                        src: "%id%&output=embed"
+                    }
+                },
+
+                srcAction: "iframe_src"
+            }
+        });
+    </script>
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="./js/lsb.min.js"></script>
+    <script>$(window).load(function() {
+        $.fn.lightspeedBox();
+      });</script>
+      <!-- BACKTOTOP -->
+      <script src="./js/util.js"></script>
+      <script src="./js/main.js"></script>
+</body>
+
+</html>
