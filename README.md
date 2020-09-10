@@ -1,4 +1,4 @@
 # layout-housing
-#### using Html, Css, Bootstrap
+#### using Html5, Css3, Jquery
 
 ![img demo](./img/demolayout.png)
